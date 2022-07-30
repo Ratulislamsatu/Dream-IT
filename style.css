@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* media query for tablet device */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .tab-screen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .tab-screen img {
+        height: 90%;
+    }
+}
+
+/* media query for mobile device */
+@media only screen and (max-width:766px) {
+    .tab-screen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .mob-screen {
+        display: flex;
+        flex-direction: column;
+    }
+}
